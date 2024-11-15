@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #F5F4F0;
+    box-sizing: border-box;
+}
+
+.travel, .history-lo {
+    color: #E1624F;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 113px auto;
+}
+
+#primagi {
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+#about {
+    /* margin-bottom: 40px; */
+    padding-bottom: 40px;
+    border-bottom: #D9D9D9 solid;
+}
+
+img {
+    border-radius: 28px;
+}
