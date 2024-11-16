@@ -24,17 +24,112 @@ body {
     margin: 113px auto;
 }
 
+h1 {
+    color: #1B1B1B;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
 #primagi {
-    margin-top: 40px;
-    margin-bottom: 24px;
+    margin: 40px 0px 24px 0px;
+}
+
+#history {
+    margin: 64px 0px 64px 0px;
+}
+
+h2 {
+    color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 2px 0px 8px 0px;
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    color: #333333;
+}
+
+#destiny-one, #destiny-two {
+    margin-bottom: 48px;
+}
+
+#destiny-three {
+    padding-bottom: 40px;
+    border-bottom: #D9D9D9 solid;
+}
+
+#haedong-image {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #1B1B1B;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 
 #about {
-    /* margin-bottom: 40px; */
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
     padding-bottom: 40px;
     border-bottom: #D9D9D9 solid;
 }
 
 img {
     border-radius: 28px;
+}
+
+.haedong, .beomeo, .yongdusan {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+
+li:nth-child(n + 2) {
+    color: #E5245E;
+}
+
+li:nth-child(n + 3) {
+    color: #E95E10;
+}
+
+.lista-tres li:first-child {
+color: #591B98;
+}
+
+ul li::marker {
+    color: #333333;
+  }
+
+#upfoot {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    color: #333333;
+    margin-top: 40px;
+}
+
+#foot {
+    text-align: center;
+    color: #333333;
+    margin: 36px 537px 48px;
+}
+
+#foot img {
+    vertical-align: middle;
 }
