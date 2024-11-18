@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f5f4f0;
+}
+
+/* avô */
+:root {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", serif;
+
+  width: 100%;
+  height: auto;
+}
+
+/* pai */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1320px;
+  height: auto;
+}
+
+/* filho */
+.root {
+  display: flex;
+  flex-direction: column;
+
+  padding: 12px;
+  width: 1120px;
+  height: auto;
+  margin: 20px 0px;
+}
+
+/* netos */
+.post-container span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e1624f;
+}
+
+.post-container:first-child span {
+  margin: 85px 0 8px;
+}
+
+.post-container:first-child p {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.post-container:nth-of-type(6) {
+  text-align: center;
+}
+
+.post-container p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.post-container img {
+  width: 1120px;
+  height: 660px;
+  border-radius: 28px;
+}
+
+.post-container:first-child img {
+  margin: 40px 0px 24px;
+}
+
+.post-container img.post-image {
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+}
+
+.post-image {
+  margin: 40px 0px 20px;
+}
+
+.topics span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+.topics ul li::marker {
+  color: #333333;
+}
+
+.topics ul > li {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0c51a7;
+
+  margin-left: 24px;
+}
+
+.topics ul > li.purple {
+  color: #591b98;
+}
+
+.topics ul > li.pink {
+  color: #e5245e;
+}
+
+.topics ul > li.orange {
+  color: #e95e10;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 68px 0px 48px;
+}
+
+.footer img {
+  padding-left: 5px;
+}
+
+hr:first-of-type {
+  border: 1px solid;
+  color: #d9d9d9;
+
+  width: 1120px;
+  margin-bottom: 64px;
+}
+
+hr:nth-of-type(2) {
+  margin: 40px 0px 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 2px 0px 8px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
